@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/***** CSS PROJET *****/
+
+.header-dragons {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.partLeft {
+  border: solid 1px #17a2b8;
+}
+
+.partLeft .message {
+  padding: 5px 3px;
+  margin: 10px 0;
+  font-size: inherit;
+  font-size: 12px;
+}
+
+.partRight {
+  padding-top: 20px;
+  border: solid 1px #17a2b8;
+}
+
+.partRight ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+ }
+
+.partRight li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container input {
+  padding: 5px;
+  margin: 10px;
+  font-size: inherit;
+  font-size: 10px;
+}
+
+.container button {
+  /* padding: 5px; */
+  margin: 0;
+  font-size: inherit;
+  font-size: 10px;
+}
+.container button.reverse_dragons {
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
